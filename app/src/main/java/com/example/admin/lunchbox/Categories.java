@@ -13,7 +13,7 @@ public class Categories extends AppCompatActivity {
         setContentView(R.layout.categories);
         gridView=(GridView)findViewById(R.id.grid);
         CustomAdapter customAdapter=new CustomAdapter(getApplicationContext(),images);
-        
+          
 
     }
 }
